@@ -2,3 +2,5 @@ cradle:
   cabal:
     - path: "./src"
       component: "lib:ADS"
+    - path: "./tests/TreeTests.hs"
+      component: "test:tree-tests"

@@ -23,3 +23,12 @@ common common-options
 library
   import: common-options
   hs-source-dirs: src
+  exposed-modules: Tree.BinaryTree,
+                   Tree.BST
+
+test-suite tree-tests
+  import: common-options
+  type: exitcode-stdio-1.0
+  build-depends: QuickCheck, ADS
+  hs-source-dirs: tests/
+  main-is: TreeTests.hs
