@@ -4,3 +4,5 @@ cradle:
       component: "lib:ADS"
     - path: "./tests/TreeTests.hs"
       component: "test:tree-tests"
+    - path: "./tests/TreeTests"
+      component: "test:tree-tests"

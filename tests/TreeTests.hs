@@ -1,4 +1,8 @@
-import Tree.BinaryTree
-import Tree.BST
+import Control.Monad
 
-x = toList BSTLeaf
+import TreeTests.BSTTest
+
+main :: IO ()
+main = do
+    void allBstTest
+
